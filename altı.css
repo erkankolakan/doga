@@ -1,0 +1,68 @@
+html
+{
+    height: 100%;
+}
+body
+{
+    margin: 0;
+    background-color: tomato;
+}
+
+
+.bg
+{
+background-position: center;
+background-size: cover;
+background-attachment:fixed ;
+}
+
+.bg-image1
+{
+    height: 100vh;
+    background-image: url(bg-2.jpeg);
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+}
+.bg-image2
+{
+    height: 50vh;
+    background-image: url(bg-3.jpeg);
+    
+    background-position: top;
+    position: relative;
+}
+
+.caption .border , .bg-image2 .border
+{
+position: absolute;
+background: black;
+color:white;
+padding: 15px 25px;
+font-size: 50px;
+transform: translate(-50%,-50%);
+top:50%;
+left:50%;
+}
+.box p
+{
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 20px 40px;
+    background-color: tomato;
+    text-indent: 20px;
+}
+.logo 
+{
+    background-image:url(8e71d5e6c85a7ee66d73ea3f5e7f60b7.jpg) ;
+    background-position: center ;
+    background-size: cover;
+
+    width: 80px;
+    height: 80px;
+    border-radius:50px ;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 99;
+    
+}

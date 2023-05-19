@@ -1,0 +1,65 @@
+body
+{
+    margin:0 10px;
+    padding: 0;
+}
+
+#header
+{
+    background-color: blueviolet;
+    padding:20px 10px;
+    width: 100%;
+
+    display: block;
+}
+#header h2
+{
+    color: darkorange;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.container__icerik
+{
+    float: left;
+}
+
+.container__icerik div
+{
+   background-color: rgb(88, 31, 117); 
+   padding: 20px 10px;
+   display:block;
+   width: 200px;
+   margin: 25px 0;
+   margin-right: 30px;
+   font-size: 20px;
+   color: aliceblue;
+   
+}
+h2
+{
+    font-weight: 300px;
+    font-size: 35px;
+}
+#ikinci
+{
+    width: calc(100% - 250px);
+}
+p
+{
+    font-size: larger;
+    font-weight: bold;
+}
+#footer
+{
+background-color:blueviolet;
+width: 100%;
+height: 50px;
+padding: 30px 10px;
+}
+#footer p{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    color: gold;
+}
